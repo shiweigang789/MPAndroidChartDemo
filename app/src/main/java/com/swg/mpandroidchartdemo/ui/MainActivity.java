@@ -193,7 +193,7 @@ public class MainActivity extends BaseActivity implements MyAdapter.OnItemClickL
     public void onItemClick(int position) {
         switch (position) {
             case 0:
-
+                startActivity(LineChartActivity1.class);
                 break;
         }
     }
