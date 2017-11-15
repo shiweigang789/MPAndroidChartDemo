@@ -8,7 +8,6 @@ import android.support.annotation.Nullable;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
-import android.view.MenuItem;
 
 import com.github.mikephil.charting.utils.Utils;
 import com.swg.mpandroidchartdemo.R;
@@ -50,22 +49,6 @@ public class MainActivity extends BaseActivity implements MyAdapter.OnItemClickL
     protected void initViews() {
         mToolbar.setTitle("MpAndroidChart Demo");
         mToolbar.inflateMenu(R.menu.main);
-        mToolbar.setOnMenuItemClickListener(new Toolbar.OnMenuItemClickListener() {
-            @Override
-            public boolean onMenuItemClick(MenuItem item) {
-                switch (item.getItemId()) {
-                    case R.id.viewGithub:
-                        break;
-                    case R.id.report:
-                        break;
-                    case R.id.blog:
-                        break;
-                    case R.id.website:
-                        break;
-                }
-                return true;
-            }
-        });
         LinearLayoutManager manager = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false);
         recyclerView.setLayoutManager(manager);
     }
@@ -194,6 +177,9 @@ public class MainActivity extends BaseActivity implements MyAdapter.OnItemClickL
         switch (position) {
             case 0:
                 startActivity(LineChartActivity1.class);
+                break;
+            case 1:
+                startActivity(LineChartActivity2.class);
                 break;
         }
     }

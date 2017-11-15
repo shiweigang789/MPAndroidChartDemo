@@ -5,9 +5,9 @@
     <string name="hello_world">Hello world!</string>
     <string name="tip_end">    —  End  —    </string>
 
-    <string name="ci_0_name">Line Chart</string>
+    <string name="ci_0_name">线状图</string>
     <string name="ci_0_desc">A simple demonstration of the linechart.</string>
-    <string name="ci_1_name">Line Chart (Dual YAxis)</string>
+    <string name="ci_1_name">多条线状图</string>
     <string name="ci_1_desc">Demonstration of the linechart with dual y-axis.</string>
     <string name="ci_2_name">Bar Chart</string>
     <string name="ci_2_desc">A simple demonstration of the bar chart.</string>
