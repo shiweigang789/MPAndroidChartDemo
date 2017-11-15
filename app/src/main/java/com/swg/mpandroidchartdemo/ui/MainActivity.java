@@ -181,6 +181,12 @@ public class MainActivity extends BaseActivity implements MyAdapter.OnItemClickL
             case 1:
                 startActivity(LineChartActivity2.class);
                 break;
+            case 2:
+                startActivity(BarChartActivity.class);
+                break;
+            case 3:
+                startActivity(HorizontalBarChartActivity.class);
+                break;
         }
     }
 

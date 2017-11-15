@@ -42,6 +42,7 @@ import java.util.List;
 import butterknife.BindView;
 
 /**
+ * 线状图
  * Created by Administrator on 2017/11/14.
  */
 

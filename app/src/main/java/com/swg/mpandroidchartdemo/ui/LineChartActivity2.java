@@ -32,6 +32,7 @@ import java.util.List;
 import butterknife.BindView;
 
 /**
+ * 多条线线状图
  * Created by swg on 2017/11/15.
  */
 

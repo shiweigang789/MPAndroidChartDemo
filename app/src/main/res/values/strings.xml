@@ -9,9 +9,9 @@
     <string name="ci_0_desc">A simple demonstration of the linechart.</string>
     <string name="ci_1_name">多条线状图</string>
     <string name="ci_1_desc">Demonstration of the linechart with dual y-axis.</string>
-    <string name="ci_2_name">Bar Chart</string>
+    <string name="ci_2_name">柱状图</string>
     <string name="ci_2_desc">A simple demonstration of the bar chart.</string>
-    <string name="ci_3_name">Horizontal Bar Chart</string>
+    <string name="ci_3_name">水平柱状图</string>
     <string name="ci_3_desc">A simple demonstration of the horizontal bar chart.</string>
     <string name="ci_4_name">Combined Chart</string>
     <string name="ci_4_desc">Demonstrates how to create a combined chart (bar and line in this case).</string>
