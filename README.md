@@ -1,6 +1,6 @@
 # MPAndroidChartDemo
 
-MPAndroidChart 教程:http://blog.csdn.net/u014136472/article/details/50273309
+[MPAndroidChart 教程](http://blog.csdn.net/u014136472/article/details/50273309)
 
 1.常用设置
 
