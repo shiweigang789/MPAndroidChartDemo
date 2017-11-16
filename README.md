@@ -4,7 +4,6 @@
 
 1.常用设置
 
-		mChart.setDrawGridBackground(false);  //设置是否显示表格
         // 设置描述信息
         Description description = new Description();
         description.setText("My Chart");
@@ -12,6 +11,7 @@
         mChart.setDescription(description);
         mChart.getDescription().setEnabled(false); // 设置描述信息是否可用
 
+		mChart.setDrawGridBackground(false);  //设置是否显示表格
         mChart.setScaleEnabled(false); //设置图表是否可缩放
         mChart.setBackgroundColor(Color.WHITE); //设置图表背景颜色
         mChart.getAxisRight().setEnabled(false); //设置右侧Y轴不可用（这里可以向得到左侧Y轴那样，得到右侧Y轴实例去处理）
@@ -42,6 +42,7 @@
         llXAxis.setLabelPosition(LimitLine.LimitLabelPosition.RIGHT_BOTTOM);// 设置线名称相对于线的位置
         llXAxis.setTextSize(10f);// 线名称的字号
         llXAxis.setTypeface(tf);// 线名称字体样式
+
 
         XAxis xAxis = mChart.getXAxis();     //得到图表的X轴实例
 		xAxis.setPosition(XAxisPosition.BOTTOM);//设置X轴的显示位置
