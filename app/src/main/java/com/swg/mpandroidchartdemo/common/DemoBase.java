@@ -1,9 +1,15 @@
 package com.swg.mpandroidchartdemo.common;
 
+import android.graphics.Color;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.text.SpannableString;
+import android.text.style.ForegroundColorSpan;
+import android.text.style.RelativeSizeSpan;
+import android.text.style.StyleSpan;
 
+import com.github.mikephil.charting.utils.ColorTemplate;
 import com.swg.mpandroidchartdemo.R;
 
 /**
@@ -42,6 +48,18 @@ public abstract class DemoBase extends BaseActivity {
     public void onBackPressed() {
         super.onBackPressed();
         overridePendingTransition(R.anim.move_left_in_activity, R.anim.move_right_out_activity);
+    }
+
+    protected SpannableString generateCenterSpannableText() {
+
+        SpannableString s = new SpannableString("MPAndroidChart\ndeveloped by swg");
+        s.setSpan(new RelativeSizeSpan(1.7f), 0, 14, 0);
+        s.setSpan(new StyleSpan(Typeface.NORMAL), 14, s.length() - 4, 0);
+        s.setSpan(new ForegroundColorSpan(Color.GRAY), 14, s.length() - 4, 0);
+        s.setSpan(new RelativeSizeSpan(.8f), 14, s.length() - 4, 0);
+        s.setSpan(new StyleSpan(Typeface.ITALIC), s.length() - 3, s.length(), 0);
+        s.setSpan(new ForegroundColorSpan(ColorTemplate.getHoloBlue()), s.length() - 3, s.length(), 0);
+        return s;
     }
 
 }

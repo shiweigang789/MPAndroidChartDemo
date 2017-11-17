@@ -25,7 +25,34 @@
         <activity android:name=".ui.LineChartActivity2" />
         <activity android:name=".ui.BarChartActivity" />
         <activity android:name=".ui.HorizontalBarChartActivity" />
-
+        <activity android:name=".ui.CombinedChartActivity" />
+        <activity android:name=".ui.PieChartActivity" />
+        <activity android:name=".ui.PiePolylineChartActivity" />
+        <activity android:name=".ui.ScatterChartActivity" />
+        <activity android:name=".ui.BubbleChartActivity" />
+        <activity android:name=".ui.StackedBarActivity" />
+        <activity android:name=".ui.StackedBarActivityNegative" />
+        <activity android:name=".ui.AnotherBarActivity" />
+        <activity android:name=".ui.MultiLineChartActivity" />
+        <activity android:name=".ui.BarChartActivityMultiDataset" />
+        <activity android:name=".ui.SimpleChartDemo" />
+        <activity android:name=".ui.ListViewBarChartActivity" />
+        <activity android:name=".ui.ListViewMultiChartActivity" />
+        <activity android:name=".ui.InvertedLineChartActivity" />
+        <activity android:name=".ui.CandleStickChartActivity" />
+        <activity android:name=".ui.CubicLineChartActivity" />
+        <activity android:name=".ui.RadarChartActivitry" />
+        <activity android:name=".ui.LineChartActivityColored" />
+        <activity android:name=".ui.RealtimeLineChartActivity" />
+        <activity android:name=".ui.DynamicalAddingActivity" />
+        <activity android:name=".ui.PerformanceLineChart" />
+        <activity android:name=".ui.BarChartActivitySinus" />
+        <activity android:name=".ui.ScrollViewActivity" />
+        <activity android:name=".ui.BarChartPositiveNegative" />
+        <activity android:name=".ui.LineChartTime" />
+        <activity android:name=".ui.FilledLineActivity" />
+        <activity android:name=".ui.HalfPieChartActivity" />
+        <activity android:name=".ui.AboutActivity" />
     </application>
 
 </manifest>

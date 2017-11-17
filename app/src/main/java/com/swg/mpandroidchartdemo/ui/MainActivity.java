@@ -158,10 +158,6 @@ public class MainActivity extends BaseActivity implements MyAdapter.OnItemClickL
                 getString(R.string.ci_31_name),
                 getString(R.string.ci_31_desc)));
 
-        // 关于
-        objects.add(new ContentItem(
-                getString(R.string.about_name),
-                getString(R.string.about_desc)));
         return objects;
     }
 
@@ -186,6 +182,89 @@ public class MainActivity extends BaseActivity implements MyAdapter.OnItemClickL
                 break;
             case 3:
                 startActivity(HorizontalBarChartActivity.class);
+                break;
+            case 4:
+                startActivity(CombinedChartActivity.class);
+                break;
+            case 5:
+                startActivity(PieChartActivity.class);
+                break;
+            case 6:
+                startActivity(PiePolylineChartActivity.class);
+                break;
+            case 7:
+                startActivity(ScatterChartActivity.class);
+                break;
+            case 8:
+                startActivity(BubbleChartActivity.class);
+                break;
+            case 9:
+                startActivity(StackedBarActivity.class);
+                break;
+            case 10:
+                startActivity(StackedBarActivityNegative.class);
+                break;
+            case 11:
+                startActivity(AnotherBarActivity.class);
+                break;
+            case 12:
+                startActivity(MultiLineChartActivity.class);
+                break;
+            case 13:
+                startActivity(BarChartActivityMultiDataset.class);
+                break;
+            case 14:
+                startActivity(SimpleChartDemo.class);
+                break;
+            case 15:
+                startActivity(ListViewBarChartActivity.class);
+                break;
+            case 16:
+                startActivity(ListViewMultiChartActivity.class);
+                break;
+            case 17:
+                startActivity(InvertedLineChartActivity.class);
+                break;
+            case 18:
+                startActivity(CandleStickChartActivity.class);
+                break;
+            case 19:
+                startActivity(CubicLineChartActivity.class);
+                break;
+            case 20:
+                startActivity(RadarChartActivitry.class);
+                break;
+            case 21:
+                startActivity(LineChartActivityColored.class);
+                break;
+            case 22:
+                startActivity(RealtimeLineChartActivity.class);
+                break;
+            case 23:
+                startActivity(DynamicalAddingActivity.class);
+                break;
+            case 24:
+                startActivity(PerformanceLineChart.class);
+                break;
+            case 25:
+                startActivity(BarChartActivitySinus.class);
+                break;
+            case 26:
+                startActivity(ScrollViewActivity.class);
+                break;
+            case 27:
+                startActivity(BarChartPositiveNegative.class);
+                break;
+            case 28:
+                break;
+            case 29:
+                startActivity(LineChartTime.class);
+                break;
+            case 30:
+                startActivity(FilledLineActivity.class);
+                break;
+            case 31:
+                startActivity(HalfPieChartActivity.class);
                 break;
         }
     }
